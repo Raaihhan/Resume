@@ -1,0 +1,12 @@
+@use './variables' as *;
+
+* { box-sizing: border-box; }
+html, body, #app { height: 100%; }
+body {
+  margin: 0;
+  font-family: $font-family-base;
+  color: $text-default-color;
+  background: $default-section-background;
+}
+
+a { color: inherit; text-decoration: none; }
