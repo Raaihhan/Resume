@@ -3,9 +3,7 @@
     "outputDirectory": "dist",
     "routes": [
       { "handle": "filesystem" },
-      { "src": "/resume", "dest": "/index.html" },
-      { "src": "/resume/", "dest": "/index.html" },
-      { "src": "/resume/(.*)", "dest": "/index.html" }
+      { "src": "/(.*)", "dest": "/index.html" }
     ],
     "redirects": [
       { "source": "/", "destination": "/resume/", "permanent": false }
